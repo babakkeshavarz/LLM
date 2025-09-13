@@ -1,24 +1,26 @@
-# 🐱 Cat Facts Chatbot (Ollama + RAG)
+# 📖 The Life of Adam (Ollama + RAG)
 
-This is a **chatbot powered by Ollama** that can answer your questions about cats 🐾.  
-It uses **retrieval-augmented generation (RAG)** — meaning it pulls facts from a dataset (`cat-facts.txt`) and combines them with a language model response.  
-The bot also **remembers your previous messages** for a continuous chat experience.
+This is a **chatbot powered by Ollama** that can answer your questions about **the life and times of Adam**.  
+It uses **retrieval-augmented generation (RAG)** — meaning it pulls information from a dataset (`adam-life.txt`) and combines it with a language model response.  
+The bot also **remembers your previous messages** for a continuous storytelling and Q&A experience.
 
 ---
 
 ## ✨ Features
-- Loads a dataset of **cat facts** from a text file.
-- Uses **embeddings** to retrieve the most relevant facts.
+- Loads a dataset of **biographical notes on Adam** from a text file.
+- Uses **embeddings** to retrieve the most relevant passages.
 - Streams responses from a **language model** in real time.
-- Keeps track of **conversation history** for context.
+- Keeps track of **conversation history** for contextual, evolving dialogue.
 - Runs in an **interactive chat loop** until you type `quit`, `exit`, or `bye`.
 
 ---
 
 ## 📂 Project Structure
+├── adam-life.txt # Dataset of Adam's life events
+├── main.py # Chatbot source code
+└── README.md # Project documentation
 
 
-## Installation
 
 ---
 
